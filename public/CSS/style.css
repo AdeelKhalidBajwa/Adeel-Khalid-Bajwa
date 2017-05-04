@@ -56,10 +56,32 @@ body{
   margin-right: 15px;
   color: #2E86C1;
 }
+
+.cv a:hover {
+  text-decoration: underline;
+}
+.cv a {
+  text-decoration: underline;
+  color: #2E86C1;
+}
+
+.name a:hover {
+  text-decoration: none;
+}
+.name a {
+  text-decoration: none;
+  color: #2E86C1;
+}
+
 .header .nav {
   margin-left: 385px;
   margin-right: 385px;
 }
+
+.header .Nav li a:active {
+  text-decoration: underline;
+}
+
 .nav ul li{
   display: inline-block;
   list-style: none;
@@ -81,19 +103,17 @@ body{
 .AboutMe {
   margin: auto;
   text-align: center;
-    height: 590px;
+    height: 662px;
     display: inline-block;
-    margin-top: 72px;
     width: 100%;
-    background: url('../images/maincover.png') left no-repeat;
+    background: url('../images/maincover1.png') left no-repeat;
 }
 .AboutMe .left {
   width: 20%;
   float: left;
-  margin-top: 50px;
+  margin-top: 130px;
   height: 440px;
   margin-left: 270px;
-  border-right: 1px solid white;
   background-color: rgba(48, 44, 44, 0.6);
 }
 .AboutMe .left img {
@@ -104,7 +124,7 @@ body{
 .AboutMe .right {
   float: left;
   width: 40%;
-  margin-top: 50px;
+  margin-top: 130px;
   background-color: rgba(48, 44, 44, 0.6);
   height: 440px;
 
