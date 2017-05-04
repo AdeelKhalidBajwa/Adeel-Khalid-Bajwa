@@ -147,6 +147,10 @@ h2 a {
   color: inherit;
 }
 
+p {
+  text-align: justify;
+}
+
 .StudySchools p {
   font-family: 'alegreyablack'; /*All the paragraphs have this color as the font color*/
 }
