@@ -81,27 +81,65 @@ body{
 .AboutMe {
   margin: auto;
   text-align: center;
-    height: 300px;
-    margin-top: 140px;
+    height: 590px;
     display: inline-block;
+    margin-top: 72px;
     width: 100%;
+    background: url('../images/maincover.png') left no-repeat;
 }
 .AboutMe .left {
-  width: 50%;
+  width: 20%;
   float: left;
-  text-align: right;
+  margin-top: 50px;
+  height: 440px;
+  margin-left: 270px;
+  border-right: 1px solid white;
+  background-color: rgba(48, 44, 44, 0.6);
 }
 .AboutMe .left img {
-  float:none;
+  float:right;
   display: inline-block;
-  margin-right: 10px;
 }
 
 .AboutMe .right {
-  width: 450px;
   float: left;
-  text-align:left;
-  margin-left: 10px;
+  width: 40%;
+  margin-top: 50px;
+  background-color: rgba(48, 44, 44, 0.6);
+  height: 440px;
+
+}
+
+.AboutMe .right p {
+  font-family: 'alegreyablack';
+  color: white;
+  font-size: 18px;
+}
+
+.AboutMe .right .myname {
+  font-size: 22px;
+}
+
+.AboutMe .right ul li{
+  list-style:none;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.AboutMe .right ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.AboutMe .right .iconsinbox {
+  height: 60px;
+  background-color: white;
+}
+
+.AboutMe .right .textinbox {
+  padding: 17px;
 }
 
 .StudySchools {
