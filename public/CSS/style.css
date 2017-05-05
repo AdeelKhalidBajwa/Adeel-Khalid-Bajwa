@@ -221,7 +221,7 @@ p {
 
 .ProfessionalExperience img {
   width: 165px; /*All the brand logos that have been added have these dimensions*/
-  height: 90px;
+  height: 90px; /* This HEX color has been used for grey overlay #6a6d71 */
   margin-top: 20px;
 }
 
@@ -571,6 +571,26 @@ The HEX color used for the grey images is #6a6d71*/
   display:none
 }
 .pasha:hover img:last-child {
+  display:inline-block
+}
+
+.ac img:last-child {
+  display:none
+}
+.ac:hover img:first-child {
+  display:none
+}
+.ac:hover img:last-child {
+  display:inline-block
+}
+
+.printickle img:last-child {
+  display:none
+}
+.printickle:hover img:first-child {
+  display:none
+}
+.printickle:hover img:last-child {
   display:inline-block
 }
 
