@@ -26,11 +26,11 @@ body{
   background-color: white;
 }
 .header {
-  height: 70px;
-  width: 100%;
+    height: 70px;
+    width: 100%;
     background-color: white;
-  position: fixed;
-   top: 0;
+    position: fixed;
+    top: 0;
    border-bottom: 2px solid #ECF0F1; /*This is the same color as the one which is used as the background color for my name*/
    text-align: center;
 }
@@ -43,7 +43,7 @@ body{
   width: 240px;
   text-align: center;
   background-color: #ECF0F1;
-  color: #2E86C1; /*This color has been used in all the text that is present in the header*/
+  color: color: #0A5DB6; /*This color has been used in all the text that is present in the header. Old color #2E86C1*/
 }
 
 .header .cv {
@@ -55,7 +55,7 @@ body{
   width: 160px;
   text-align: center;
   margin-right: 15px;
-  color: #2E86C1;
+  color: #0A5DB6;
 }
 
 .cv a:hover {
@@ -63,7 +63,7 @@ body{
 }
 .cv a {
   text-decoration: underline;
-  color: #2E86C1;
+  color: #0A5DB6;
 }
 
 .name a:hover {
@@ -71,7 +71,7 @@ body{
 }
 .name a {
   text-decoration: none;
-  color: #2E86C1;
+  color: #0A5DB6;
 }
 
 .header .nav {
@@ -90,7 +90,7 @@ body{
   font-family: 'nunitoregular';
   float: left;
   line-height: 70px;
-  color: #2E86C1;
+  color: #0A5DB6;
 }
 .nav a:hover {
   text-decoration: underline;
@@ -735,6 +735,7 @@ The HEX color used for the grey images is #6a6d71*/
     display: inline-block;
   }
 
+
   .LetsConnect {
     height: 60px;
     width: 100%;
@@ -779,21 +780,21 @@ The HEX color used for the grey images is #6a6d71*/
   }
 
   .skillswhole ul li {
-    height:40px;
-    width: 163px;
+    height: 40px;
+    width: 155px;
     display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
     margin-top: 10px;
     list-style: none;
-    background-color: #ECF0F1 /*This is the samle color as the background color of name and bottom border of header*/
-  }
+    background-color: #ECF0F1 /*This is the samle color as the background color of name and bottom border of header*/;
+}
 
   .skillswhole p {
     display: inline-block;
     margin-left: 5px;
     line-height: 40px;
-    color: #2E86C1;
+    color: #0A5DB6;
     font-family: 'nunitoregular';
     font-size: 8.5px;
   }
@@ -891,7 +892,7 @@ The HEX color used for the grey images is #6a6d71*/
     float: left;
 }
 .interestsdetails p {
-  color: #2E86C1;
+  color: #0A5DB6;
   margin: 0px;
   padding: 0px;
   float: left;
@@ -924,7 +925,7 @@ The HEX color used for the grey images is #6a6d71*/
     width: 160px;
     text-align: center;
     background-color: white; /*#ECF0F1*/
-    color: #2E86C1; /*This color has been used in all the text that is present in the header*/
+    color: #0A5DB6; /*This color has been used in all the text that is present in the header*/
   }
 
   .header .cv {
@@ -956,7 +957,7 @@ The HEX color used for the grey images is #6a6d71*/
   }
   .name a {
     text-decoration: none;
-    color: #2E86C1;
+    color: #0A5DB6;
   }
 
   .header .nav {
