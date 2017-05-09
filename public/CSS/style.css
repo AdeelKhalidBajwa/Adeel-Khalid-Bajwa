@@ -652,3 +652,337 @@ The HEX color used for the grey images is #6a6d71*/
 .eg:hover img:last-child {
   display:inline-block
 }
+
+/* The code for responsive begins here */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+  h1 {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    padding-top: 30px;
+    font-size: 14px;
+  }
+  h1 span {
+    display: block;
+    border-top: 1px solid #ECF0F1; /*The same color which was used as name background and header border-bottom*/
+    border-bottom: 1px solid #ECF0F1; /*The same color which was used as name background and header border-bottom*/
+  }
+
+  h2 {
+    margin-top: 10px;
+    color: #3A74B1; /*This is a different shade of blue which I have used for H2 and H3 headings*/
+    font-size: 13px;
+  }
+
+  h3 {
+    color: #3A74B1; /*This is a different shade of blue which I have used for H2 and H3 headings*/
+    font-size: 12px;
+  }
+
+  /*The code below states that all H2 headings will be underlined once cursor is on them and no decoration otherwise*/
+  h2 a:hover {
+    text-decoration: none;
+  }
+  h2 a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .ProfessionalExperience p {
+    font-family: 'alegreyablack';
+    margin-top: 5px;
+  }
+
+  .ProfessionalExperience img {
+    width: 99px; /*All the brand logos that have been added have these dimensions*/
+    height: 54px; /* This HEX color has been used for grey overlay #6a6d71 */
+    margin-top: 20px;
+  }
+
+  .detailsection p {
+    font-size: 12px; /*The paragraph items in the detail section have this font size*/
+  }
+
+  h3 {
+    font-family: 'nunitoregular';
+  font-weight: normal;
+  }
+
+  .ProfessionalExperience {
+    width: 320px;
+    text-align: left;
+    margin-top: 10px;
+    margin: auto;
+    font-family: 'nunitoregular';
+  }
+
+  .StudySchools {
+    width: 320px;
+    text-align: left;
+    margin-top: 10px;
+    margin: auto;
+  }
+
+  .ProfessionalExperience ul li {
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+  }
+
+  .LetsConnect {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    background-color: white;
+    border-top: 1px solid #ECF0F1;
+  }
+  .LetsConnect ul li{
+    list-style:none;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  .LetsConnect ul li img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .LetsConnect p {
+    font-size: 16px;
+    display: inline-block;
+    float: center;
+    margin-top: 5px;
+    color: #0A5DB6;
+    border-top: none;
+    border-bottom: none;
+    font-family: 'nunitoregular';
+  }
+
+  .skills {
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .skills ul {
+      width: 320px;
+      margin: auto;
+  }
+
+  .skillswhole ul li {
+    height:40px;
+    width: 163px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    list-style: none;
+    background-color: #ECF0F1 /*This is the samle color as the background color of name and bottom border of header*/
+  }
+
+  .skillswhole p {
+    display: inline-block;
+    margin-left: 5px;
+    line-height: 40px;
+    color: #2E86C1;
+    font-family: 'nunitoregular';
+    font-size: 8.5px;
+  }
+
+  .skillswhole img {
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .AboutMe {
+    margin: auto;
+    text-align: center;
+    height: 480px;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .AboutMe .left {
+    display: none;
+  }
+
+  .AboutMe .right {
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgba(48, 44, 44, 0.6);
+    height: 332px;
+  }
+
+  .AboutMe .container {
+    width: 320px;
+    margin: auto;
+  }
+
+  .AboutMe .right p {
+    font-family: 'alegreyablack';
+    color: white;
+    font-size: 13px;
+  }
+
+  .AboutMe .right .myname {
+    font-size: 15px;
+    display: none;
+  }
+
+  .AboutMe .right ul li{
+    list-style:none;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  .AboutMe .right ul li img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .AboutMe .right .iconsinbox {
+    height: 40px;
+    background-color: white;
+  }
+
+  .AboutMe .right .textinbox {
+    padding: 10px;
+  }
+
+  .interests {
+    width: 100%;
+    height: 100%;
+    background: url('../images/mycover.png') top center no-repeat;
+    background-size: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .interestsdetails {
+    width: 100%;
+    float: left;
+    padding: 5%;
+    padding-top: 5%;
+    padding-right: 0px;
+    display: inline-block;
+    background-color: transparent;
+    margin-top: 61.5%;
+    font-family: 'nunitoregular';
+    margin-left: 0px;
+}
+
+  .trkbox {
+    width: 50%;
+    color: #000;
+    margin-bottom: 10px;
+    float: left;
+}
+.interestsdetails p {
+  color: #2E86C1;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  font-size: 13px;
+  height: 30px;
+  padding-left: 7px;
+  line-height: 30px;
+}
+
+  .interestsdetails img {
+    height: 30px;
+    width: 30px;
+    float: left;
+  }
+
+  .header {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #ECF0F1; /*This is the same color as the one which is used as the background color for my name*/
+    text-align: center;
+  }
+  .header .name {
+    font-size:16px;
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+    width: 160px;
+    text-align: center;
+    background-color: white; /*#ECF0F1*/
+    color: #2E86C1; /*This color has been used in all the text that is present in the header*/
+  }
+
+  .header .cv {
+  display: none;
+}
+/*
+  .header .cv {
+    font-size:16px;
+    font-family: 'nunitoregular';
+    display: inline-block;
+    float: right;
+    line-height: 30px;
+    width: 160px;
+    text-align: center;
+    margin-right: 5px;
+    color: #2E86C1;
+  }
+
+  .cv a:hover {
+    text-decoration: none;
+  }
+  .cv a {
+    text-decoration: underline;
+    color: #2E86C1;
+  }
+*/
+  .name a:hover {
+    text-decoration: none;
+  }
+  .name a {
+    text-decoration: none;
+    color: #2E86C1;
+  }
+
+  .header .nav {
+    display: none;
+  }
+
+  /*.header .Nav li a:active {
+    text-decoration: underline;
+  }
+
+  .nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+    font-size: 18px;
+    font-family: 'nunitoregular';
+    float: left;
+    line-height: 70px;
+    color: #2E86C1;
+  }
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  .nav a {
+    text-decoration: none;
+    color: inherit;
+  } */
+
+}
