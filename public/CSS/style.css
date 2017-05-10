@@ -781,7 +781,7 @@ The HEX color used for the grey images is #6a6d71*/
 
   .skillswhole ul li {
     height: 40px;
-    width: 155px;
+    width: 156px;
     display: inline-block;
     margin-left: 1px;
     margin-right: 1px;
@@ -796,7 +796,7 @@ The HEX color used for the grey images is #6a6d71*/
     line-height: 40px;
     color: #0A5DB6;
     font-family: 'nunitoregular';
-    font-size: 8.5px;
+    font-size: 8.3px;
   }
 
   .skillswhole img {
@@ -875,20 +875,21 @@ The HEX color used for the grey images is #6a6d71*/
   .interestsdetails {
     width: 100%;
     float: left;
-    padding: 5%;
-    padding-top: 5%;
+    padding: 0%;
+    padding-top: 0%;
     padding-right: 0px;
     display: inline-block;
     background-color: transparent;
-    margin-top: 61.5%;
+    margin-top: 68.5%;
     font-family: 'nunitoregular';
-    margin-left: 0px;
+    margin-left: auto;
 }
 
   .trkbox {
-    width: 50%;
+    width: 30%;
     color: #000;
     margin-bottom: 10px;
+    margin-left: 10px;
     float: left;
 }
 .interestsdetails p {
